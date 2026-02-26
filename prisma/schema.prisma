@@ -39,7 +39,7 @@ model Post {
   id Int @id @default(autoincrement())
   title String
 
-  subtitle String
+  subtitle String?
 
   userId Int @map("user_id")
 
